@@ -35,7 +35,7 @@ app.use(readme.run)
 Notes: 
 
 * Each of 'endpoint', 'scripts', and 'styles' can be string values or arrays
-* An empty object as 'htmlWrap' results in doctype, html, head, and body tags added
+* An empty object as 'htmlWrap' results in just doctype, html, head, and body tags added
 * 'meta' can be made up of 'content', 'charset', 'http-equiv', and 'name' attributes
-* 'filename' is the location of your README.md relative to project root (defaults to /README.md)
+* 'filename' is the location of your README.md relative to project root (defaults to ./README.md)
 * 'endpoint' defaults to '/readme.html' 
