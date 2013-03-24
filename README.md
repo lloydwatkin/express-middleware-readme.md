@@ -1,13 +1,12 @@
-express-middleware-readme.md
-============================
+# express-middleware-readme.md
 
 Express middleware which parses your project root's README.md to HTML and exposes on a specified URL.
 
 [![Build Status](https://secure.travis-ci.org/lloydwatkin/express-middleware-readme.md.png)](http://travis-ci.org/lloydwatkin/express-middleware-readme.md)
 
-== Usage ==
+## Usage 
 
-=== Default Options ===
+### Default Options 
 
 ```javaScript
 app.use(require('express-middleware-readme.md').run)
@@ -15,7 +14,7 @@ app.use(require('express-middleware-readme.md').run)
 
 This will expose your README.md at the the path '/readme.md'.
 
-=== Set options ===
+### Set options
 
 ```javaScript
 var readme = require('express-middleware-readme.md')
@@ -38,4 +37,8 @@ Notes:
 * An empty object as 'htmlWrap' results in just doctype, html, head, and body tags added
 * 'meta' can be made up of 'content', 'charset', 'http-equiv', and 'name' attributes
 * 'filename' is the location of your README.md relative to project root (defaults to ./README.md)
-* 'endpoint' defaults to '/readme.html' 
+* 'endpoint' defaults to '/readme.html'
+
+## License
+
+Apache 2.0, please let me know if this doesn't suit :-)
