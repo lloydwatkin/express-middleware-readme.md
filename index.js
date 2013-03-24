@@ -59,7 +59,7 @@ exports.setOptions = setOptions = function(opts, callback) {
 		if (error) throw(error)
 		content = ""
 		addHead()
-		content += require('github-flavored-markdown').parse(data)
+		content += require('ghm').parse(data)
 		addFoot()
 		if (callback) callback()
 	})

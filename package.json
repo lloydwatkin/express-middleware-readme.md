@@ -1,6 +1,6 @@
 {
   "name": "express-middleware-readme.md",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Expose github style README.md as an endpoint using middleware",
   "main": "index.js",
   "repository": {
@@ -17,6 +17,6 @@
   "author": "Lloyd Watkin <lloyd@evilprofessor.co.uk>",
   "license": "Apache 2.0",
   "dependencies": {
-    "github-flavored-markdown": "~1.0.1"
+    "ghm": "~1.0.0-3"
   }
 }
