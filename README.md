@@ -42,3 +42,9 @@ Notes:
 ## License
 
 Apache 2.0, please let me know if this doesn't suit :-)
+
+## To-do
+
+Add tests, all code is crap without.
+
+This will be a good little project for me to translate my unit testing skills over to node.js/javascript.
