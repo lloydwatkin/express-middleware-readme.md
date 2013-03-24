@@ -25,7 +25,8 @@ readme.setOptions({
         styles: '/css/style.css',
         meta: [
             { charset: 'utf-8' }
-        ]
+        ],
+        title: 'This is my github README.md'
     }
 })
 app.use(readme.run)

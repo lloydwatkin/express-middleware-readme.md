@@ -26,6 +26,7 @@ exports.setOptions = setOptions = function(opts, callback) {
 	    	if (meta.charset) content += 'charset="' + meta.charset + '" '
 	    	content += ' />' + "\n"
 	    })
+	    if (options.htmlWrap.title) content += '<title>' + options.htmlWrap.title + "</title>\n"
 	    content += "</head>\n<body>\n"
 	}
 	
