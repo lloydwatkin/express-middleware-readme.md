@@ -49,3 +49,7 @@ Apache 2.0, please let me know if this doesn't suit :-)
 Add tests, all code is crap without.
 
 This will be a good little project for me to translate my unit testing skills over to node.js/javascript.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/lloydwatkin/express-middleware-readme.md/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
